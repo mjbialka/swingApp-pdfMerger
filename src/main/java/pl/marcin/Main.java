@@ -1,16 +1,8 @@
 package pl.marcin;
 
-import javax.swing.*;
-
 public class Main {
 
     public static void main(String[] args) {
-        start();
+        PdfMergerApp.start();
     }
-
-    protected static void start(){
-        SwingUtilities.invokeLater(PdfMergerApp::createAndShowGUI);
-    }
-
-
 }
