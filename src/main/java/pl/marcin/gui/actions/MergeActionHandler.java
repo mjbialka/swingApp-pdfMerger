@@ -1,7 +1,6 @@
 package pl.marcin.gui.actions;
 
 import pl.marcin.logic.PdfMergerController;
-import pl.marcin.logic.core.PdfMergeService;
 import pl.marcin.util.AppConstants;
 import pl.marcin.util.DialogUtils;
 

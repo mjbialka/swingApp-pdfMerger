@@ -57,9 +57,7 @@ public class GUIManager {
         DirectoryChooserService chooserService = new DirectoryChooserService();
         BrowseActionHandler actionHandler = new BrowseActionHandler(chooserService);
 
-        JButton browseButton = BrowseButtonFactory.create(config, () -> {
-            actionHandler.handle(pathField, panel);
-        });
+        JButton browseButton = BrowseButtonFactory.create(config, () -> actionHandler.handle(pathField, panel));
 
         panel.add(browseButton, GridBagHelper.constraints(2, 1, 1, new Insets(2, 2, 2, 2)));
     }
