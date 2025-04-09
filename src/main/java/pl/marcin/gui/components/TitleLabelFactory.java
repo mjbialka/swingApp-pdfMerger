@@ -6,7 +6,7 @@ import javax.swing.*;
 
 public class TitleLabelFactory {
     public static JLabel create(UIConfig config) {
-        JLabel titleLabel = new JLabel("Pdf Tool", SwingConstants.CENTER);
+        JLabel titleLabel = new JLabel("Merging Tool", SwingConstants.CENTER);
         titleLabel.setFont(config.getTitleFont());
         titleLabel.setForeground(config.getTitleColor());
         return titleLabel;
